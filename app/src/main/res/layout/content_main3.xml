@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:text="Taurus (April 20 - May 20): You're not fully qualified for a responsibility you have to take on. You may think that you don't hav the talent, or that you don't have the experience or talent. You may be involved in something apur of the moment, and you can't second guess it now. Pour your heart into it and see the results of your work in the end."
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView3"
+        android:textSize="18sp"
+        android:fontFamily="casual"
+        android:textColor="@color/colorPrimaryDark" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/taurus"
+        android:id="@+id/imageView3" />
+</LinearLayout>

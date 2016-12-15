@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:text="Gemini (May 21 - June 20): Sometimes a respinsiblity may feel like a burden. It can take you away from the things that you enjoy. It can also create conflict or power struggles. BUT, it can be a great opportunity too. It may open doors for you in a career or relationship, and it may even teach you something new. Gemini, remember to be open."
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView4"
+        android:fontFamily="casual"
+        android:textSize="18sp"
+        android:textColor="@color/colorPrimaryDark" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/gemini"
+        android:id="@+id/imageView4" />
+</LinearLayout>
